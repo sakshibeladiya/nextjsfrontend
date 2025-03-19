@@ -1,0 +1,71 @@
+{
+  "name": "upset-ways-create",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start --port=3000",
+    "lint": "next lint",
+    "refine": "refine"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/lab": "^5.0.0-alpha.85",
+    "@mui/material": "^5.8.6",
+    "@mui/x-data-grid": "^6.6.0",
+    "@mui/x-date-pickers": "^7.7.0",
+    "@refinedev/cli": "^2.16.38",
+    "@refinedev/core": "^4.54.1",
+    "@refinedev/devtools": "^1.2.8",
+    "@refinedev/inferencer": "^4.7.0",
+    "@refinedev/kbar": "^1.3.6",
+    "@refinedev/mui": "^5.21.0",
+    "@refinedev/nextjs-router": "^6.1.0",
+    "@refinedev/react-hook-form": "^4.9.0",
+    "@refinedev/simple-rest": "^5.0.1",
+    "autosuggest-highlight": "^3.3.4",
+    "axios": "^1.6.2",
+    "css.gg": "^2.1.1",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "js-cookie": "^3.0.5",
+    "leaflet": "^1.9.4",
+    "material-ui-dropzone": "^3.5.0",
+    "moment": "^2.30.1",
+    "next": "^14.1.0",
+    "next-client-cookies": "^1.1.1",
+    "ol": "^10.3.1",
+    "query-string": "^7.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-drag-drop-files": "^2.3.10",
+    "react-leaflet": "^5.0.0",
+    "react-mui-dropzone": "^4.0.7",
+    "react-select": "^5.10.1",
+    "react-window": "^1.8.10",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/autosuggest-highlight": "^3.2.3",
+    "@types/js-cookie": "^3.0.6",
+    "@types/leaflet": "^1.9.16",
+    "@types/node": "^18.16.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-window": "^1.8.8",
+    "@typescript-eslint/parser": "^6.21.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "^14.1.0",
+    "typescript": "^5.4.2"
+  },
+  "refine": {
+    "projectId": "3g2iEo-jT1hkH-ftrZrt"
+  }
+}
